@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowi EF: Warum scheiterte Weimar? - Materialanalyse</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        .intro-text {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .accordion {
+            background-color: #ffffff;
+            color: #2c3e50;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: 2px solid #bdc3c7;
+            text-align: left;
+            outline: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: 0.4s;
+            margin-top: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .active, .accordion:hover {
+            background-color: #ecf0f1;
+            border-color: #3498db;
+        }
+        .accordion:after {
+            content: '\002B';
+            color: #3498db;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .active:after {
+            content: "\2212";
+        }
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            border-left: 4px solid #3498db;
+            margin-bottom: 10px;
+            border-radius: 0 0 8px 8px;
+        }
+        .source-content {
+            padding: 20px 0;
+        }
+        .headline {
+            color: #c0392b;
+            font-size: 1.4rem;
+            margin-top: 0;
+        }
+        .sub-source {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 3px solid #7f8c8d;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        strong { color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <h1>Materialanalyse: Demokratie in Deutschland</h1>
+    
+    <div class="intro-text">
+        <p>Analysieren Sie die folgenden Materialien, um die strukturellen Unterschiede zwischen der Weimarer Reichsverfassung (WRV) und dem Grundgesetz (GG) herauszuarbeiten. Achten Sie besonders auf die Lehren, die für die "wehrhafte Demokratie" gezogen wurden.</p>
+    </div>
+
+    <button class="accordion">Quelle 1: Zeitungsartikel (Rückblick 1933)</button>
+    <div class="panel">
+        <div class="source-content">
+            <h2 class="headline">Warum scheiterte Deutschlands erste Demokratie?</h2>
+            <p><strong>Ein Rückblick auf die Weimarer Republik (1919-1933)</strong></p>
+            <p>Berlin, 1933 – Mit der Machtübernahme der Nationalsozialisten endet die erste demokratische Epoche in Deutschland. Die Weimarer Republik, die nach dem Ersten Weltkrieg mit großen Hoffnungen begann, konnte sich nur 14 Jahre halten. Doch warum scheiterte diese Demokratie?</p>
+            <p>Von Anfang an stand die junge Republik vor enormen Herausforderungen: Die Niederlage im Ersten Weltkrieg, der als demütigend empfundene Versailler Vertrag und die Wirtschaftskrisen belasteten das Land schwer. Viele Deutsche machten die Demokratie für diese Probleme verantwortlich.</p>
+            <p>Doch auch die Verfassung selbst enthielt Schwachstellen. Der Reichspräsident besaß weitreichende Machtbefugnisse und konnte in Notlagen ohne das Parlament regieren. Das Wahlsystem führte zu einer Zersplitterung des Reichstags in viele kleine Parteien, was stabile Regierungen nahezu unmöglich machte. Zwischen 1919 und 1933 gab es 20 verschiedene Regierungen – keine konnte lange bestehen.</p>
+            <p>Extremistische Parteien von links und rechts nutzten die demokratischen Freiheiten, um die Demokratie selbst zu bekämpfen. Die Weimarer Republik erwies sich als nicht wehrhaft genug gegen ihre Feinde. Als die Weltwirtschaftskrise 1929 Deutschland mit voller Wucht traf, verlor die Demokratie endgültig an Rückhalt in der Bevölkerung.</p>
+            <p>Die Lehren aus diesem Scheitern flossen später in das Grundgesetz der Bundesrepublik Deutschland ein. Die Väter und Mütter des Grundgesetzes wollten eine „wehrhafte Demokratie" schaffen, die aus den Fehlern der Vergangenheit gelernt hatte.</p>
+        </div>
+    </div>
+
+    <button class="accordion">Quelle 2: Weimarer Reichsverfassung (WRV 1919)</button>
+    <div class="panel">
+        <div class="source-content">
+            <div class="sub-source">
+                <p><strong>Artikel 25 – Auflösung des Reichstags:</strong> „Der Reichspräsident kann den Reichstag auflösen, jedoch nur einmal aus dem gleichen Anlass."</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 48 – Notverordnungsrecht:</strong> „[...] Der Reichspräsident kann, wenn im Deutschen Reich die öffentliche Sicherheit und Ordnung erheblich gestört oder gefährdet wird, die zur Wiederherstellung nötigen Maßnahmen treffen [...]. Zu diesem Zwecke darf er vorübergehend die Grundrechte ganz oder zum Teil außer Kraft setzen."</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 54 – Reichskanzler:</strong> „Der Reichskanzler und die Reichsminister bedürfen [...] des Vertrauens des Reichstags. Jeder von ihnen muss zurücktreten, wenn ihm der Reichstag durch ausdrücklichen Beschluss sein Vertrauen entzieht."</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 22 – Wahlsystem:</strong> „Die Abgeordneten werden [...] nach den Grundsätzen der Verhältniswahl gewählt."</p>
+                <p class="note">Anmerkung: Keine Sperrklausel – Zersplitterung des Parlaments.</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 109 – Grundrechte:</strong> „Alle Deutschen sind vor dem Gesetze gleich."</p>
+                <p class="note">Anmerkung: Grundrechte konnten durch einfache Gesetze eingeschränkt werden.</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="accordion">Quelle 3: Grundgesetz der BRD (GG 1949)</button>
+    <div class="panel">
+        <div class="source-content">
+            <div class="sub-source">
+                <p><strong>Artikel 54 – Bundespräsident:</strong> Wahl durch Bundesversammlung. Hauptsächlich repräsentativ, keine Notstandsbefugnisse wie Art. 48 WRV.</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 67 – Konstruktives Misstrauensvotum:</strong> „Der Bundestag kann dem Bundeskanzler das Misstrauen nur dadurch aussprechen, dass er mit der Mehrheit seiner Mitglieder einen Nachfolger wählt..."</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Wahlgesetz – 5%-Sperrklausel:</strong> Verhindert die Zersplitterung des Parlaments durch Kleinstparteien.</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 1 – Menschenwürde & Artikel 79 (3) – Ewigkeitsklausel:</strong> Die Grundsätze der Artikel 1 und 20 sind unantastbar und können nicht abgeschafft werden.</p>
+            </div>
+            <div class="sub-source">
+                <p><strong>Artikel 21 (2) – Parteiverbot:</strong> Schutz vor verfassungsfeindlichen Parteien durch das Bundesverfassungsgericht.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
+        }
+    </script>
+
+</body>
+</html>
