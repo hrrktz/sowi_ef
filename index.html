@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 900px;
+            max-width: 950px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f4f7f6;
@@ -36,7 +36,7 @@
             border: 2px solid #bdc3c7;
             text-align: left;
             outline: none;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;
             transition: 0.4s;
             margin-top: 10px;
@@ -45,15 +45,26 @@
             justify-content: space-between;
             align-items: center;
         }
+        .accordion-glossar {
+            background-color: #34495e;
+            color: #ecf0f1;
+            border: none;
+        }
         .active, .accordion:hover {
             background-color: #ecf0f1;
             border-color: #3498db;
+        }
+        .accordion-glossar:hover {
+            background-color: #2c3e50;
         }
         .accordion:after {
             content: '\002B';
             color: #3498db;
             font-weight: bold;
             font-size: 20px;
+        }
+        .accordion-glossar:after {
+            color: #f1c40f;
         }
         .active:after {
             content: "\2212";
@@ -67,6 +78,9 @@
             border-left: 4px solid #3498db;
             margin-bottom: 10px;
             border-radius: 0 0 8px 8px;
+        }
+        .panel-glossar {
+            border-left: 4px solid #f1c40f;
         }
         .source-content {
             padding: 20px 0;
@@ -82,6 +96,22 @@
             margin: 15px 0;
             border-left: 3px solid #7f8c8d;
         }
+        /* Glossar Styling */
+        .glossary-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            padding: 15px 0;
+        }
+        .glossary-term {
+            font-weight: bold;
+            color: #2980b9;
+            border-bottom: 1px dashed #bdc3c7;
+        }
+        .glossary-def {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
         .note {
             font-style: italic;
             color: #7f8c8d;
@@ -96,7 +126,7 @@
     <h1>Materialanalyse: Demokratie in Deutschland</h1>
     
     <div class="intro-text">
-        <p>Analysieren Sie die folgenden Materialien, um die strukturellen Unterschiede zwischen der Weimarer Reichsverfassung (WRV) und dem Grundgesetz (GG) herauszuarbeiten. Achten Sie besonders auf die Lehren, die für die "wehrhafte Demokratie" gezogen wurden.</p>
+        <p>Analysieren Sie die Materialien. Nutzen Sie das <strong>Glossar</strong> am Ende der Seite, wenn Ihnen Begriffe unklar sind.</p>
     </div>
 
     <button class="accordion">Quelle 1: Zeitungsartikel (Rückblick 1933)</button>
@@ -153,6 +183,29 @@
             <div class="sub-source">
                 <p><strong>Artikel 21 (2) – Parteiverbot:</strong> Schutz vor verfassungsfeindlichen Parteien durch das Bundesverfassungsgericht.</p>
             </div>
+        </div>
+    </div>
+
+    <button class="accordion accordion-glossar">💡 Glossar (Schwierige Begriffe erklärt)</button>
+    <div class="panel panel-glossar">
+        <div class="glossary-grid">
+            <div class="glossary-term">Notverordnung</div>
+            <div class="glossary-def">Ein Gesetz, das vom Präsidenten ohne Zustimmung des Parlaments erlassen wird. In Weimar führte dies dazu, dass das Parlament machtlos wurde.</div>
+            
+            <div class="glossary-term">Verhältniswahl</div>
+            <div class="glossary-def">Ein Wahlsystem, bei dem die Sitze im Parlament genau nach dem Anteil der Stimmen verteilt werden. Ohne Sperrklausel führt dies zu sehr vielen kleinen Parteien.</div>
+            
+            <div class="glossary-term">Sperrklausel (5%)</div>
+            <div class="glossary-def">Eine Regelung, nach der Parteien erst ab einem bestimmten Stimmenanteil ins Parlament dürfen. Ziel: Stabile Mehrheiten.</div>
+            
+            <div class="glossary-term">Konstruktives Misstrauensvotum</div>
+            <div class="glossary-def">Das Parlament kann den Kanzler nur stürzen, wenn es gleichzeitig mit Mehrheit einen neuen Kanzler wählt. Das verhindert regierungslose Zustände.</div>
+            
+            <div class="glossary-term">Ewigkeitsklausel</div>
+            <div class="glossary-def">Ein Schutz im Grundgesetz (Art. 79), der besagt, dass Kernprinzipien wie Menschenwürde und Demokratie niemals abgeschafft werden dürfen – auch nicht mit einer 2/3-Mehrheit.</div>
+
+            <div class="glossary-term">Wehrhafte Demokratie</div>
+            <div class="glossary-def">Ein Staat, der aktiv gegen Feinde der Demokratie vorgeht (z.B. Parteiverbote), anstatt passiv zuzusehen, wie seine Freiheit abgeschafft wird.</div>
         </div>
     </div>
 
